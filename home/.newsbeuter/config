@@ -20,8 +20,8 @@ save-path ~/Documents/notes/Newsbeuter
 feedlist-format " %n %4i %11u %t -- %T"
 articlelist-format  "%4i %f %D   %?T?|%-17T|  ?%t"
 #notify-format       "%d new articles (%n unread articles, %f unread feeds)"
-show-read-feeds no
-show-read-articles no
+show-read-feeds yes
+show-read-articles yes
 #notify-program      "/usr/bin/notify-send"
 #goto-next-feed no
 #max-items 500

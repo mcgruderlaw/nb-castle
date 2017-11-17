@@ -1,1 +1,13 @@
-../../../../dotfiles/home/.newsbeuter/colorschemes/maskray
+# Theme from MaskRay on github {{{1
+color listnormal color245 default
+color listnormal_unread color247 default
+color listfocus color249 default
+color listfocus_unread color249 default
+color article color247 default
+color info green default
+
+highlight article "^Feed: .*$" color3 default
+highlight article "^Title: .*$" color13 default bold
+highlight article "^Author: .*$" color5 default
+highlight article "^Link: .*$" color6 default
+highlight article "^Date: .*$" color4 default
