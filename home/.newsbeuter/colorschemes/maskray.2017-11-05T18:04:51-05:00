@@ -1,9 +1,9 @@
 # Theme from MaskRay on github {{{1
-color listnormal color245 default
-color listnormal_unread color247 default
-color listfocus color249 default
-color listfocus_unread color249 default
-color article color247 default
+color listnormal color244 default
+color listnormal_unread color248 default
+color listfocus white color235
+color listfocus_unread white color235
+color article color248 default
 color info green default
 
 highlight article "^Feed: .*$" color3 default
