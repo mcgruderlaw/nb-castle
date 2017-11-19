@@ -113,7 +113,7 @@ macro y set browser "echo -n %u | xclip -selection clipboard"; open-in-browser ;
 # read saved files
 # ranger: https://www.youtube.com/watch?v=qooLR8NmYKs
 # w3m context url: https://www.youtube.com/watch?v=C7YPjbrTeCs
-macro s set browser "tmux split-window && tmux send-keys 'ranger ~/.newsbeuter/saved_articles && tmux kill-pane\n'" ; open-in-browser ; set browser "$BROWSER %u"
+macro s set browser "tmux split-window && tmux send-keys 'ranger ~/Documents/notes/Newsbeuter && tmux kill-pane\n'" ; open-in-browser ; set browser "$BROWSER %u"
 
 # }}}
 # Ivaylo Kuzev <ivkuzev@gmail.com>, 2014
