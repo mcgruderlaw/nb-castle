@@ -1,2 +1,4 @@
 /home/.newsbeuter/cache.db
 /home/.newsbeuter/cache.db.lock
+home/.newsbeuter/history.cmdline
+home/.newsbeuter/history.search
