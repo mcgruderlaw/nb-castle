@@ -17,6 +17,7 @@ datetime-format "%d %B %Y %R"
 download-retries 4
 download-timeout 60
 save-path ~/Downloads/Newsbeuter
+bookmark-cmd "~/.bin/newsbeuter_bookmarks_surfraw.sh"
 feedlist-format " %n %4i %11u %t -- %T"
 articlelist-format  "%4i %f %D   %?T?|%-17T|  ?%t"
 #notify-format       "%d new articles (%n unread articles, %f unread feeds)"
