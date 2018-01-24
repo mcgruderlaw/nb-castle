@@ -9,6 +9,7 @@ https://www.archlinux.org/feeds/news/ programming
 https://www.gentoo.org/rdf/en/gentoo-news.rdf programming
 https://packages.gentoo.org/packages/added.atom programming
 https://packages.gentoo.org/packages/updated.atom programming
+https://gitweb.gentoo.org/repo/gentoo.git/atom/sys-kernel/gentoo-sources?h=master
 https://gitweb.gentoo.org/repo/gentoo.git/atom/app-admin/lastpass-cli?h=master
 https://gitweb.gentoo.org/repo/gentoo.git/atom/app-editors/gvim?h=master
 https://gitweb.gentoo.org/repo/gentoo.git/atom/app-emulation/virtualbox?h=master
