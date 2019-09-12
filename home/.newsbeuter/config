@@ -11,7 +11,7 @@ reload-time 30
 user-agent "Liferea/1.4.14 (Linux; en_US.UTF8; http://liferea.sf.net/)"
 article-sort-order  date-asc
 confirm-exit yes
-browser $BROWSERCLI
+browser "$BROWSERCLI"
 datetime-format "%d %B %Y %R"
 #download-full-page yes		# for feeds with link only then dl full page
 download-retries 4
@@ -28,6 +28,7 @@ show-read-articles yes
 #max-items 500
 text-width 60
 #prepopulate-query-feeds yes
+history-limit 300
 #}}}
 #-------- podbeuter {{{
 #------------------------------------------------------
@@ -128,7 +129,7 @@ macro s set browser "tmux split-window && tmux send-keys 'ranger ~/Documents/not
 # color listfocus color108 color234
 # color listnormal_unread color108 color234
 # color listfocus_unread color234 color108
-# 
+#
 # highlight article "^Feed:.*" color174 default
 # highlight article "^Title:.*" color223 color108 bold
 # highlight article "^Author:.*" color114 default
