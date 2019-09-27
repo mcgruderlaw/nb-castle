@@ -1,12 +1,12 @@
 #-------- settings {{{
 #------------------------------------------------------
 #
-#notify-xterm yes
+notify-xterm yes
 auto-reload yes
 reload-time 30
 #reload-only-visible-feeds yes
 #suppress-first-reload yes
-#refresh-on-startup no
+refresh-on-startup yes
 # reload-only-visible-feeds yes
 user-agent "Liferea/1.4.14 (Linux; en_US.UTF8; http://liferea.sf.net/)"
 article-sort-order  date-asc
@@ -25,16 +25,17 @@ show-read-feeds yes
 show-read-articles yes
 #notify-program      "/usr/bin/notify-send"
 #goto-next-feed no
-#max-items 500
+max-items 1500
+always-download https://www.theroot.com/rss
 text-width 60
 #prepopulate-query-feeds yes
-history-limit 300
+history-limit 1000
 #}}}
 #-------- podbeuter {{{
 #------------------------------------------------------
 download-path		"~/Downloads/Newsbeuter"
 max-downloads		2
-player			"$PLAYER"
+player			$PLAYER
 
 # send any links to queue in URL view
 # http://www.newsbeuter.org/doc/newsbeuter.html#_macro_support
