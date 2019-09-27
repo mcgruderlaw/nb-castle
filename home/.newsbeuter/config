@@ -10,8 +10,8 @@ reload-time 30
 # reload-only-visible-feeds yes
 user-agent "Liferea/1.4.14 (Linux; en_US.UTF8; http://liferea.sf.net/)"
 article-sort-order  date-asc
-confirm-exit yes
-browser "$BROWSERCLI"
+confirm-exit no
+browser $BROWSERCLI
 datetime-format "%d %B %Y %R"
 #download-full-page yes		# for feeds with link only then dl full page
 download-retries 4
@@ -26,7 +26,7 @@ show-read-articles yes
 #notify-program      "/usr/bin/notify-send"
 #goto-next-feed no
 #max-items 500
-text-width 60
+text-width60
 #prepopulate-query-feeds yes
 history-limit 300
 #}}}
@@ -155,6 +155,6 @@ macro s set browser "tmux split-window && tmux send-keys 'ranger ~/Documents/not
 #highlight article "^Date: .*$" color4 default
 
 #include "~/.newsbeuter/colorschemes/jrhorn424"
-include "~/.newsbeuter/colorschemes/maskray"
-#include "~/.newsbeuter/colorschemes/solarized-dark"
+#include "~/.newsbeuter/colorschemes/maskray"
+include "~/.newsbeuter/colorschemes/solarized-dark"
 #include "~/.newsbeuter/colorschemes/solarized-light"
