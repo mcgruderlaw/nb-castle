@@ -26,7 +26,7 @@ show-read-articles yes
 #notify-program      "/usr/bin/notify-send"
 #goto-next-feed no
 #max-items 500
-text-width60
+text-width 60
 #prepopulate-query-feeds yes
 history-limit 300
 #}}}
