@@ -12,7 +12,7 @@ user-agent "Liferea/1.4.14 (Linux; en_US.UTF8; http://liferea.sf.net/)"
 article-sort-order  date-asc
 confirm-exit yes
 #browser "$BROWSERCLI"
-browser ~/.bin/urlportal.sh
+browser "~/.bin/urlportal.sh"
 datetime-format "%d %B %Y %R"
 #download-full-page yes		# for feeds with link only then dl full page
 download-retries 4
