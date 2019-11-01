@@ -2,3 +2,7 @@
 /home/.newsbeuter/cache.db.lock
 home/.newsbeuter/history.cmdline
 home/.newsbeuter/history.search
+home/.newsboat/cache.db
+home/.newsboat/cache.db.lock
+home/.newsboat/history.cmdline
+home/.newsboat/history.search
